@@ -1,0 +1,34 @@
+
+NETFLIX RATING PREDICTION MODEL
+==================================================
+
+Dataset Information:
+- Total records used: 1590
+- Training samples: 1272
+- Test samples: 318
+
+Model Configuration:
+- Algorithm: Random Forest Regressor
+- Number of trees: 100
+- Max depth: 15
+- Random state: 42
+
+Performance Metrics:
+- Training R² Score: 0.5379
+- Test R² Score: -0.1376
+- Training RMSE: 1.0903
+- Test RMSE: 1.6532
+- Training MAE: 0.9180
+- Test MAE: 1.3867
+
+Top 3 Important Features:
+  GENRE_ENCODED: 0.2924
+  DURATION_NUMERIC: 0.2722
+  COUNTRY_ENCODED: 0.1891
+
+Exported Files:
+- netflix_rating_model.pkl (trained model)
+- scaler.pkl (feature scaler)
+- encoders.pkl (label encoders)
+- feature_info.pkl (feature columns and importance)
+
